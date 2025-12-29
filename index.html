@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="score-board">
+
+        <div class="team">
+
+            <h1 class="heading">HOME</h1>
+            <div class="home-leader">
+                <p class="scores" id="home-scores">0</p>
+            </div>
+            <div class="pointers">
+                <button id="home-point1" class="pointer home-point" value="1">+ 1</button>
+                <button id="home-point2" class="pointer home-point" value="2">+ 2</button>
+                <button id="home-point3" class="pointer home-point" value="3">+ 3</button>
+            </div>
+
+            <button class="new-game-btn">NEW GAME</button>
+
+        </div>
+
+        <div class="team">
+
+            <h1 class="heading">GUEST</h1>
+
+            <div class="guest-leader">
+                <p class="scores" id="guest-scores">0</p>
+            </div>
+            <div class="pointers">
+                <button id="guest-point1" class="pointer guest-point" value="1">+ 1</button>
+                <button id="guest-point2" class="pointer guest-point" value="2">+ 2</button>
+                <button id="guest-point3" class="pointer guest-point" value="3">+ 3</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

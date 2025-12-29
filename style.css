@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Digital;
+    src: url("fonts/digital-7.ttf");
+}
+
+body {
+    min-width: 700px;
+    background-color: #172041;
+}
+
+#score-board {
+    display: flex;
+    justify-content: center;
+    background-color: #172041;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    padding-top: 40px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 80px;
+}
+
+.heading {
+    font-family: sans-serif;
+    color: white;
+    font-size: 70px;
+    font-weight: boler;
+}
+
+.scores {
+    font-size: 300px;
+    color: #f84561;
+    font-family: Digital;
+    margin: 0px;
+    background-color: black;
+    width: 20vw;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.pointers {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+    width: 20vw;
+}
+
+.pointer {
+    font-size: 30px;
+    border: 2px solid  rgba(255, 255, 255, 0.703);
+    border-radius: 5px;
+    background-color: #172041;
+    color: rgba(255, 255, 255, 0.703);
+    padding: 10px;
+    font-family: Digital;
+    width: 60px;
+}
+
+.new-game-btn {
+    background-color:black;
+    color:#f84561;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.home-leader {
+    background-color:#172041;
+    padding: 10px;
+    border-radius: 17px;
+}
+
+.guest-leader {
+    background-color:#172041;
+    padding: 10px;
+    border-radius: 17px;
+}
